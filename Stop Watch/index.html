@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<html>
+
+
+    <head>
+
+        <title>Stop Watch</title>
+
+        <!-- linking of css files -->
+
+        <link rel="stylesheet" type="text/css" href="./css/body.css">
+        <link rel="stylesheet" type="text/css" href="css/header.css">
+        <link rel="stylesheet" type="text/css" href="./css/main.css">
+        <link rel="stylesheet" type="text/css" href="./css/aside.css">
+
+    </head>
+
+
+    <body>
+
+        <!-- code for header part  -->
+       
+        <header>
+
+            <h2>Stop Watch</h2>
+
+        </header>
+        
+        
+        
+        <!-- code for main part -->
+        <main>
+
+
+
+            <!-- code for timer -->
+            
+            <div id="timer">
+
+
+
+                <!-- code for top part of the timer 00:00:00-->
+                <div id="timer-header">
+
+
+                        <div class='timer-header-container'>
+
+
+                            <!-- code for days  -->
+                            <div class="container-top">
+                                DD
+                            </div>
+    
+    
+                            <div class= "container-bottom" id='day'>
+                                00
+                            </div>
+
+                      
+                      
+                        </div>
+
+
+
+                        <div class='timer-header-container'>
+
+
+                            <!-- code for hours  -->
+                            <div class="container-top">
+                                HR
+                            </div>
+    
+    
+                            <div class= "container-bottom" id='hour'>
+                                00
+                            </div>
+
+                      
+                      
+                        </div>
+
+
+                        <div class='timer-header-container'>
+
+
+                            <!-- code for minutes  -->
+                            <div class="container-top">
+                                MIN
+                            </div>
+    
+    
+                            <div class= "container-bottom" id='minute'>
+                                00
+                            </div>
+
+                      
+                      
+                        </div>
+
+
+
+                        <div class='timer-header-container'>
+
+
+                            <!-- code for seconds  -->
+                            <div class="container-top">
+                                SEC
+                            </div>
+    
+    
+                            <div class= "container-bottom" id='second'>
+                                00
+                            </div>
+
+                      
+                      
+                        </div>
+
+                      
+
+                </div>
+
+
+
+                <!-- code for buttons part of timer -->
+                <div id="timer-footer">
+
+                    <button id="start" onclick="start()">Start</button>
+                    <button id="stop" onclick="stop()">Stop</button>
+                    <button id='reset'onclick="reset()">Reset</button>
+                    <button id='capture' onclick="capture()">Capture</button>
+
+
+                </div>
+
+
+
+
+            </div>
+
+
+
+        </main>
+
+
+        <!-- code for aside part  -->
+        <aside>
+
+                <div id="aside-header">
+
+                    <h5>Captures</h5>
+
+
+                </div>
+
+
+                <div id='aside-footer'>
+
+
+                </div>
+
+
+
+
+        </aside>
+
+
+        <script src="./javascript/main.js" type="text/javascript"></script>
+        <script src="./javascript/aside.js" type="text/javascript"></script>
+
+
+    </body>
+
+
+
+</html>
