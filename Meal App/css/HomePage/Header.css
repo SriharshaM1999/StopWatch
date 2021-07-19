@@ -1,0 +1,34 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    width:100vw;
+    height:100vh;
+}
+
+header{
+    width:100%;
+    background-color:purple;
+    height:10vh;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+
+div.header-element h4, div.header-element a{
+        padding-top:1rem;
+        font-size:2rem;
+        color:white;
+        font-weight:bold;
+        text-decoration:none;
+}
+
+div.header-element a{
+    display:inline-block;
+    padding-top:1rem;
+    font-size:1.5rem;
+}
