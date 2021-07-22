@@ -61,3 +61,14 @@ button{
 button:hover{
     background-color: rgba(51, 51, 197, 0.932);
 }
+
+@media screen  and (max-width:600px){
+
+    #timer{
+        position:relative;
+        top:10%;
+        width:100%;
+        margin-bottom:1rem;
+    }
+    
+}

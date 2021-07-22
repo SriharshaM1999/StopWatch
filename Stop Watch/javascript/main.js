@@ -143,6 +143,10 @@ function reset(){
         hour.innerHTML='00';
         minute.innerHTML='00';
         second.innerHTML='00';
+        secondValue=0;
+        minuteValue=0;
+        hourValue=0;
+        dayValue=0;
 
         stop();
 

@@ -2,5 +2,17 @@ header{
     position:fixed;
     background-color: rgba(51, 51, 197, 0.932);
     width:100vw;
-    height:10vh;
+    height:8vh;
+}
+
+header h2{
+    margin-top:1rem;
+    margin-left: 4rem;
+}
+
+@media screen  and (max-width:600px){
+
+    header{
+        height:50px;
+    }
 }

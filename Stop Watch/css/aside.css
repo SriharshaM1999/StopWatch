@@ -32,3 +32,12 @@ aside{
     margin-bottom:1px;
 
 }
+
+
+@media screen  and (max-width:600px){
+
+    aside{
+        width:100vw;s
+    }
+    
+}
